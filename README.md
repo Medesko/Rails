@@ -57,11 +57,12 @@ Adding Users Authentication with Devise Module
 [Device install command](http://guides.railsgirls.com/devise/)
 ````
 	- rails g migrate users name:string tel:string address:string email:string:uniq level:integer
-	- rails g model newsletters body:text nb_email:string
-	- rails g model orders id_client:integer
+	- rails g model newsletters body:text date_newsletter:datetime nb_email:string
+	- rails g model orders order_date:datetime id_client:integer 
 	- rails g model order_product order_id:integer product_id:integer quantity:integer
 	- rails g model products name:string margin_product:decimal 'price:decimal{5,2}'
 	- rails g model recipes product_id:integer ingredient_id:integer
-	- rails g model ingredients name:string 'price_ingredient:decimal{5,2}'
-	- rails g model ingredients_history ingredient_id:integer year:integer
+	- rails g model ingredients name:string
+	- rails g model ingredients_history ingredient_id:integer 'price_ingredient:decimal{5,2}' year:integer
 ````
+## 4 - Create the table Associations:
