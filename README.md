@@ -66,3 +66,9 @@ Adding Users Authentication with Devise Module
 	- rails g model ingredients_history ingredient_id:integer 'price_ingredient:decimal{5,2}' year:integer
 ````
 ## 4 - Create the table Associations:
+````
+````
+## 5 - Running Migrations
+````
+	rake db:migrate
+````
