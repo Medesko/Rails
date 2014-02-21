@@ -52,8 +52,8 @@
 
 
 ````
-## 3 -Create the Store table model and migrations:
-	### Adding Users Authentication with Devise Module
+## 3 - Create the Store table model and migrations:
+	Adding Users Authentication with Devise Module
 	[Device install command](http://guides.railsgirls.com/devise/)
 ````
 	- rails g migrate users name:string tel:string address:string email:string:uniq level:integer
