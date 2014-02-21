@@ -8,7 +8,7 @@
 ````
 	- gem install rails
 	- rails new Rails-Store 
-	-  cd Rails-Store
+	- cd Rails-Store
 ````
 ## 3 - 
 
