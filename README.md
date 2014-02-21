@@ -1,4 +1,4 @@
-#Site vitrine de produits artisanaux.
+#Store products.
 
 
 ## 1 - Creating Ruby on Rails Store Application
