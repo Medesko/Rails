@@ -54,6 +54,7 @@
 ````
 ## 3 -Create the store table migrations:
 	### Adding Users Authentication with Devise Module
+	http://guides.railsgirls.com/devise/
 ````
 	- rails g migrate users name:string tel:string address:string email:string:uniq level:integer
 	- rails g model newsletters body:text nb_email:string
