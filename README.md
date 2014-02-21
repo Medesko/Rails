@@ -4,8 +4,12 @@
 ## 1 - Database diagram schema
 
 
-## 2 - Creating Ruby on Rails Store Application
-
+## 2 - Generating a Ruby on Rails Application
+````
+	- gem install rails
+	- rails new Rails-Store 
+	-  cd Rails-Store
+````
 ## 3 - 
 
 ````
